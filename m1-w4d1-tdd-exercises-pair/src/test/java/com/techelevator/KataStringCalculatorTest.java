@@ -36,16 +36,6 @@ public class KataStringCalculatorTest {
 		int result = sut.add("20,20");
 		assertEquals(40, result);
 	}
-//	@Test
-//	public void testEmptySecond() {
-//		int result = sut.add("2,");
-//		assertEquals(2, result);
-//	}
-//	@Test
-//	public void testEmptyFirst() {
-//		int result = sut.add(",2");
-//		assertEquals(2, result);
-//	}
 	@Test
 	public void testCommaNewLine() {
 		int result = sut.add("1\n1");

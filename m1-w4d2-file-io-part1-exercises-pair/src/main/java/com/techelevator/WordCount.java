@@ -13,8 +13,8 @@ public class WordCount {
 		
 		
 		
-		File alice = new File("/Users/joshwygle/workspace/team6-java-week-4-pair-exercises/m1-w4d2-file-io-part1-exercises-pair/alices_adventures_in_wonderland.txt");
-		System.out.println(alice.exists());
+		File alice = new File("/Users/aaronvail/workspace/team6-java-week-4-pair-exercises/m1-w4d2-file-io-part1-exercises-pair/alices_adventures_in_wonderland.txt");
+//		System.out.println(alice.exists());
 		
 		try(Scanner input = new Scanner(alice)) {
 			while (input.hasNextLine()) {
@@ -37,7 +37,7 @@ public class WordCount {
 
 	public static int getSentenceCount() {
 		
-		File alice = new File("/Users/joshwygle/workspace/team6-java-week-4-pair-exercises/m1-w4d2-file-io-part1-exercises-pair/alices_adventures_in_wonderland.txt");
+		File alice = new File("/Users/aaronvail/workspace/team6-java-week-4-pair-exercises/m1-w4d2-file-io-part1-exercises-pair/alices_adventures_in_wonderland.txt");
 		// System.out.println(alice.exists());
 		
 		try(Scanner input = new Scanner(alice)) {
